@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* css document */
+
+.bg-dark{
+	background-color: #45B39D !important; 
+}
+.c-container{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.c-carousel-caption{
+	color: #000;
+}
+.text-container{
+	max-width: 1000px;
+}
+.front-page-text{
+	padding-top: 20px;
+}
