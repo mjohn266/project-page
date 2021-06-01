@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Michelle_Johnson_NavBar_Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="icon" href="../img/favicon.png"> 
+
+    <!-- This is where you put your google font in if applicable -->
+<!--     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet"> -->
+
+<!-- This is the link to the toggle hamburger -->
+	 <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link  rel="stylesheet"  href="../css/prism.css"/>
+
+  </head>
+  <body>
+    
+    <div class="d-flex">
+      <nav id="sidebar">
+        <div class="custom-menu">
+          <button type="button" id="sidebarCollapse" class="toggle-btn">
+              <span class="sr-only">Toggle Menu</span>
+                    <div id="nav-icon1" >
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+               </button>
+          </div>
+		<div class="p-4 pt-6">
+		 <a href="../index.html" class="logo"><img src="../img/logo_mrj.png" alt="MRJ Logo" class="logoimg"></a>
+
+
+	       <ul class="list-unstyled components">
+	     
+	          <li class="active">
+	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Foundations</a>
+	            
+			            <ul class="collapse list-unstyled" id="homeSubmenu">
+		                <li>
+		                    <a href="../foundation/type.html">Typography</a>
+		                </li>
+		                <li>
+		                    <a href="../foundation/color.html">Color</a>
+		                </li>
+		                <li>
+		                    <a href="../foundation/logo.html">Logo</a>
+		                </li>
+			            </ul>
+	          </li>
+	          
+	          <li>
+              <a href="#ComponentsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Components</a>
+              <ul class="collapse.show list-unstyled" id="ComponentsSubmenu">
+               <li>
+                    <a href="#">Navigation Bar</a>
+                </li>
+                <li>
+                    <a href="component2.html">Buttons</a>
+                </li>
+                <li>
+                    <a href="component3.html">Cards</a>
+                </li>
+              </ul>
+	          </li>
+
+	          <li>
+              <a href="#PatternsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Patterns</a>
+              <ul class="collapse list-unstyled" id="PatternsSubmenu">
+                 <li>
+                    <a href="../patterns/pattern1.html">Homepage Patterns</a>
+                </li>
+                <li>
+                    <a href="../patterns/pattern2.html">Recent Work Patterns</a>
+                </li>
+               
+              </ul>
+	          </li>
+	         
+	         
+	        </ul> 
+
+	      
+
+
+	      </div>
+    	</nav>
+
+        <!-- Page Content  -->
+      <div class = "container">
+          <div class = "row p-5 pt-6">
+            <div id="content">
+
+              <h1>Navigation Bar</h1>
+               <div class="navbarInfo">
+                        <div class="row align-items center">
+                            <div class="col-lg-8">
+                                <h4>For Large Desktop Screens</h4>
+                                <p>This is the navigation bar as it would appear on large format desktop screens.</p>
+                            </div>
+
+                            <div class="col">
+                                <img src="../img/Nav_Desktop.png" alt="mauve-menu-on-green-background">
+                            </div>
+                        </div>
+
+                        <br>
+
+                        <div class="row align-items center">
+                            <div class="col-lg-8">
+                                <h4 id="type2">For Large Desktop Screens with an Item Selected</h4>
+                                <p id="type2ss">This is the navigation as it would appear on large format screens with one item selected.</p>
+                            </div>
+
+                            <div class="col">
+                                <img src="../img/Nav_Desktop_Selected.png" alt="mauve-menu-on-green-background-purple-text-selected">
+                            </div>
+                        </div>
+
+                        <br>
+
+                        <div class="row align-items center">
+                            <div class="col-lg-8">
+                                <h4 id="type2">For Small Mobile Screens</h4>
+                                <p id="type2ss">This is the navigation as it would appear on small format screens, like tablet and mobile. The menu options collapse into a hamburger menu.</p>
+                            </div>
+
+                            <div class="col">
+                                <img src="../img/Nav_Mobile.png" alt="white hamburger menu icon on a teal background">
+                            </div>
+                        </div>
+
+                        <br>
+
+                        <div class="p-1">
+                            <h4>Usage and Best Practices</h4>
+                            <p>The navigation bar should be placed at the top of the page. On large format screens, links should be left aligned to ensure that all options appear withing the viewport. Links for active pages should be darkened to #693e3c text color. In smaller formats, the hamburger should be compressed to the right side of the screen, easily accessible by the thumb on mobile.
+                            </p>
+                        </div>
+
+                        <div class="accessibility">
+                            <h4>Accessibility Considerations</h4>
+                            <p>The navigation bar is made to be adaptive via bootstrap, to be easily accessed on any screen sizes. Active links are darkened to be easily identified even by those with limited color perception.</p>
+                        </div>
+                        </div>
+
+                        <div class="code">
+                            <h4 id="type2">Code Example</h4>
+                            <pre class="language-markup">
+<code class="language-markup">
+
+     &lt;body&gt;
+    &lt;nav class=&quot;navbar navbar-expand-lg navbar-dark bg-dark sticky-top&quot;&gt;
+  &lt;div class=&quot;container-fluid&quot;&gt;
+    &lt;a class=&quot;navbar-brand&quot; href=&quot;#&quot;&gt;&lt;img src=&quot;img/logo.png&quot;&gt;&lt;/a&gt;
+    &lt;button class=&quot;navbar-toggler&quot; type=&quot;button&quot; data-bs-toggle=&quot;collapse&quot; data-bs-target=&quot;#navbarNavDropdown&quot; aria-controls=&quot;navbarNavDropdown&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Toggle navigation&quot;&gt;
+      &lt;span class=&quot;navbar-toggler-icon&quot;&gt;&lt;/span&gt;
+    &lt;/button&gt;
+    &lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;navbarNavDropdown&quot;&gt;
+      &lt;ul class=&quot;navbar-nav&quot;&gt;
+        &lt;li class=&quot;nav-item&quot;&gt;
+          &lt;a class=&quot;nav-link&quot; aria-current=&quot;page&quot; href=&quot;#&quot;&gt;About Me&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;nav-item&quot;&gt;
+          &lt;a class=&quot;nav-link active&quot; aria-current=&quot;page&quot; href=&quot;#&quot;&gt;Recent Work&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;nav-item&quot;&gt;
+          &lt;a class=&quot;nav-link&quot; aria-current=&quot;page&quot; href=&quot;#&quot;&gt;CV&lt;/a&gt;
+        &lt;/li&gt;
+         &lt;li class=&quot;nav-item&quot;&gt;
+          &lt;a class=&quot;nav-link&quot; aria-current=&quot;page&quot; href=&quot;#&quot;&gt;Contact&lt;/a&gt;
+        &lt;/li&gt;
+     
+                 
+          &lt;/ul&gt;
+       
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/nav&gt;
+</code>
+</pre>   
+                  
+
+            </div>
+        </div>      <!-- Content  -->
+      </div><!-- Row  -->
+    </div><!-- Container -->
+</div>
+      <script src="../js/prism.js"></script> 
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>

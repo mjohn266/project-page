@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Michelle_Johnson_Buttons_Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="icon" href="../img/favicon.png"> 
+
+    <!-- This is where you put your google font in if applicable -->
+<!--     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet"> -->
+
+<!-- This is the link to the toggle hamburger -->
+      <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+  <link  rel="stylesheet"  href="../css/prism.css"/>
+  </head>
+  <body>
+    
+    <div class="d-flex">
+      <nav id="sidebar">
+        <div class="custom-menu">
+          <button type="button" id="sidebarCollapse" class="toggle-btn">
+              <span class="sr-only">Toggle Menu</span>
+                    <div id="nav-icon1" >
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+               </button>
+          </div>
+		<div class="p-4 pt-6">
+            <a href="../index.html" class="logo"><img src="../img/logo_mrj.png" alt="MRJ Logo" class="logoimg"></a>
+
+	       <ul class="list-unstyled components">
+	     
+	          <li class="active">
+	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Foundations</a>
+	            
+			            <ul class="collapse list-unstyled" id="homeSubmenu">
+		                <li>
+		                    <a href="../foundation/type.html">Typography</a>
+		                </li>
+		                <li>
+		                    <a href="../foundation/color.html">Color</a>
+		                </li>
+		                <li>
+		                    <a href="../foundation/logo.html">Logo</a>
+		                </li>
+			            </ul>
+	          </li>
+	          
+	          <li>
+              <a href="#ComponentsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Components</a>
+              <ul class="collapse.show list-unstyled" id="ComponentsSubmenu">
+               <li>
+                    <a href="component1.html">Navigation Bar</a>
+                </li>
+                <li>
+                    <a href="#">Buttons</a>
+                </li>
+                <li>
+                    <a href="component3.html">Cards</a>
+                </li>
+              </ul>
+	          </li>
+
+	          <li>
+              <a href="#PatternsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Patterns</a>
+              <ul class="collapse list-unstyled" id="PatternsSubmenu">
+                 <li>
+                    <a href="../patterns/pattern1.html">Homepage Patterns</a>
+                </li>
+                <li>
+                    <a href="../patterns/pattern2.html">Recent Work Patterns</a>
+                </li>
+               
+              </ul>
+	          </li>
+	         
+	         
+	        </ul> 
+
+	      
+
+
+	      </div>
+    	</nav>
+
+        <!-- Page Content  -->
+      <div class = "container">
+          <div class = "row p-5 pt-6">
+            <div id="content">
+
+              <h1>Buttons</h1>
+               <div class="navbarInfo">
+                        <div class="row align-items center">
+                            <div class="col-lg-8">
+                                <h4>For Large and Small Screens: Unclicked</h4>
+                                <p>This design applies to all buttons on both large and small screens.</p>
+                            </div>
+
+                            <div class="col-lg-8">
+                                <img src="../img/button.png" class="button" alt="white-text-on-teal-button">
+                            </div>
+                        </div>
+
+                        <br>
+
+                        <div class="row align-items center">
+                            <div class="col-lg-8">
+                                <h4 id="type2">For Large and Small Screens: On Hover</h4>
+                                <p>When a user hovers over a button, the button color lightens, but a dark outline remains.</p>
+                            </div>
+
+                            <div class="col-lg-8">
+                                <img src="../img/Button_Selected.png" class="button" alt="white-text-on-light-green-button">
+                            </div>
+                        </div>
+
+                        <br>
+
+                    
+
+                        <div class="p-1">
+                            <h4>Usage and Best Practices</h4>
+                            <p>Buttons should be used when links are not sufficient or appropriate, in order to highlight a choice or signify an option. When buttons appear below text, they should be centered below it. When they appear beside text, they should be right aligned.
+                            </p>
+                        </div>
+
+                        <div class="accessibility">
+                            <h4>Accessibility Considerations</h4>
+                            <p>Buttons change to a lighter shade when hovered to expressly indicate that an item has been selected.</p>
+                        </div>
+                        </div>
+
+                        <div class="code">
+                            <h4 id="type2">Code Example</h4>
+                            <pre class="language-markup">
+<code class="language-markup">
+
+    &lt;a href=&quot;#&quot; class=&quot;btn btn-primary button&quot;&gt;View&lt;/a&gt;
+</code>
+</pre>   
+                  
+
+            </div>
+        </div>      <!-- Content  -->
+      </div><!-- Row  -->
+    </div><!-- Container -->
+</div>
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
