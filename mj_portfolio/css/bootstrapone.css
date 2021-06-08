@@ -93,6 +93,10 @@ h1, h2, h3, h4, h5,
 .navbarimg{
     max-width: 30px;
 }
+.navbar-toggler{
+    color: #a86561 !important;
+    border-color: #c09591 !important;
+}
 .mainpage{
     padding-top: 40px;
     padding-left: 20%;
